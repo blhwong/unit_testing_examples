@@ -27,8 +27,8 @@ Separation of components to separate files.
     - Difficult to manage as more dependencies are added
     - Difficult to manage if spec changes
 
-![IoC](docs/ioc.png)
 ## IoC
+![IoC](docs/ioc.png)
 **Inversion of control** - A design principle in which a software component is designed to receive its dependencies from an external source, rather than creating them itself. 
 
 This means that frameworks will depend on abstractions rather than implementation.
