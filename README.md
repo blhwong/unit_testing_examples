@@ -1,11 +1,11 @@
 # Unit testing, IoC, Dependency Injection and more!
 
 I want to create a module that will
-1. Log the start of training to Snowflake
-2. Train model
-3. Upload scores into s3
-4. Log the completion of training to Snowflake
-5. Notify slack channel
+1. Log the start of training to a database
+2. Train a ML model
+3. Upload scores into a blob store
+4. Log the completion of training to a database
+5. Notify upon completion
 
 ## V0
 Do everything in one file. No separation of components or anything.
