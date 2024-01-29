@@ -14,7 +14,7 @@ Do everything in one file. No separation of components or anything.
 ### Cons
 - How do you even begin testing something like this?
   - Need an additional third party dependency like pytest-mock
-  - Python's monkey patching actually allows you to do this. But in my experiences with other languages, mocking private and internal functions is extremely difficult.
+  - Python's monkeypatching actually allows you to do this. But in my experiences with other languages, mocking private and internal functions is extremely difficult.
 - Is this scalable? What happens when this single file becomes > 1000 lines of code
 ## V1
 Separation of components to separate files.
@@ -22,7 +22,8 @@ Separation of components to separate files.
   - Super simple
   - Separation of components between files
 ### Cons
-  - Still requires monkey patching
+  - Still requires monkeypatching
+    - What if I mistyped or messed up the monkeypatch?
   - Dependency is pointing outwards
     - Difficult to manage as more dependencies are added
     - Difficult to manage if spec changes
